@@ -30,7 +30,7 @@ function Search(props){
                 variant='outlined' 
                 className={classes.root}
                 InputProps={{
-                    endAdornment: <InputAdornment position="end"><SearchIcon /></InputAdornment>,
+                    endAdornment: <InputAdornment position="end"><SearchIcon style={{color:'#4E2A84'}} /></InputAdornment>,
                 }}/>
         </div>
     )

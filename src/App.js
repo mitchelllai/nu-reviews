@@ -4,8 +4,8 @@ import Search from './search'
 import Filter from './filter'
 import Content from './content'
 
-let BASE_URL = 'https://nu-reviews-api.herokuapp.com'
-// let BASE_URL = 'http://localhost:8080'
+// let BASE_URL = 'https://nu-reviews-api.herokuapp.com'
+let BASE_URL = 'http://localhost:8080'
 
 function App(props){
 
@@ -30,7 +30,7 @@ function App(props){
                     setSearchResults([])
                 }
                 else{
-                    console.log(data)
+                    // console.log(data)
                     setSearchResults(data)
                 }
             })
